@@ -8,7 +8,7 @@
     "outputPath": "dotnetcoreWebApi/bin/Release/netcoreapp2.2"
   },
   "test": {
-    "enabled": true,
+    "enabled": false,
     "path": "dotnetcoreWebApiTests/"
   },
   "archive": {
