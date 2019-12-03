@@ -8,8 +8,8 @@
     "outputPath": "dotnetcoreWebApi/bin/Release/netcoreapp2.2"
   },
   "test": {
-    "enabled": false,
-    "path": "dotnetcoreWebApiTests/"
+    "enabled": true,
+    "path": "dotnetcoreWebApiTest/"
   },
   "archive": {
     "registry": "docker.io",
