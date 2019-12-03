@@ -13,7 +13,7 @@
   },
   "archive": {
     "registry": "docker.io",
-    "repository": "saqibhu/dotnetcoreWebApi"
+    "repository": "saqibhu/dotnetcorewebapi"
   },
   "deploy": {
     "containerPort": 5000
