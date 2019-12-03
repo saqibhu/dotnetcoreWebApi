@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2
 
-COPY --from=build-env /app
+COPY dotnetcoreWebApi/bin/Release/netcoreapp2.2 /app
 
 ENTRYPOINT ["dotnet", "/app/dotnetcoreWebApi.dll"]
 
