@@ -1,0 +1,21 @@
+{
+  "application": {
+    "name": "Sample .NET Core App",
+    "type": "netcore"
+  },
+  "build": {
+    "path": "dotnetcoreWebApi/",
+    "outputPath": "dotnetcoreWebApi/bin/Release/netcoreapp2.2"
+  },
+  "test": {
+    "enabled": true,
+    "path": "dotnetcoreWebApiTests/"
+  },
+  "archive": {
+    "registry": "docker.io",
+    "repository": "saqibhu/dotnetcoreWebApi"
+  },
+  "deploy": {
+    "containerPort": 5000
+  }
+}
