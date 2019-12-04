@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreWepApi", "dotnetcoreWebApi\dotnetcoreWepApi.csproj", "{CB91B89F-0B29-449C-8BDA-A4DC292D1ED1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreWebApi", "dotnetcoreWebApi\dotnetcoreWebApi.csproj", "{CB91B89F-0B29-449C-8BDA-A4DC292D1ED1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreWebApiTest", "dotnetcoreWebApiTest\dotnetcoreWebApiTest.csproj", "{F97C9367-D2EF-458D-9D72-66627C32F5EC}"
 EndProject
