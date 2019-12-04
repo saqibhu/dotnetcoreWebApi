@@ -5,5 +5,5 @@ COPY dotnetcoreWebApi/bin/Release/netcoreapp2.2 ./app
 RUN ls /app
 RUN dotnet --version
 
-ENTRYPOINT ["dotnet", "./app/dotnetcoreWebApi.dll"]
+ENTRYPOINT ["dotnet", "./app/dotnetcoreWepApi.dll"]
 
