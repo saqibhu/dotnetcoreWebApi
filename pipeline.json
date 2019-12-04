@@ -16,6 +16,6 @@
     "repository": "saqibhu/dotnetcorewebapi"
   },
   "deploy": {
-    "containerPort": 5000
+    "containerPort": 80
   }
 }
