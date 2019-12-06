@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: edwardsdl/netcore-pipeline:latest
+      - image: saqibhu/netcore-pipeline
     steps:
       - setup_remote_docker:
           docker_layer_caching: true
