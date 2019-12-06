@@ -4,8 +4,6 @@ jobs:
     docker:
       - image: saqibhu/netcore-pipeline
     steps:
-      - setup_remote_docker:
-          docker_layer_caching: true
       - run:
           name: Clone
           command: /stages/01_clone.sh
